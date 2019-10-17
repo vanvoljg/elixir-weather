@@ -3,8 +3,6 @@ defmodule Weather.CLI do
   Parse the command line options passed in
   """
 
-  alias Weather.WeatherData
-
   def main(argv) do
     argv
     |> parse_args()
@@ -52,6 +50,6 @@ defmodule Weather.CLI do
   end
 
   def process(station) do
-    WeatherData.fetch(station)
+    Weather.WeatherData.fetch(station)
   end
 end
