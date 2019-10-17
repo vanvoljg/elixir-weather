@@ -1,18 +1,6 @@
 defmodule Weather do
   @moduledoc """
-  Documentation for Weather.
+  Gets a weather report from weather.gov and returns a formatted table of
+  current weather conditions.
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Weather.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
 end

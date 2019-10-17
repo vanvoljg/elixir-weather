@@ -25,3 +25,6 @@ weather-*.tar
 # IntellJ IDE
 .idea
 *.iml
+# kate temp files
+*.kate-swp
+notes
